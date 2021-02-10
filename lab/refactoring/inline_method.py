@@ -1,6 +1,11 @@
 # by Kami Bigdely
 # Inline method.
+<<<<<<< HEAD
 """Finds out if a person should be allowed to enter or not based on age"""
+=======
+# TODO: Refactor this program to improve its readability.
+
+>>>>>>> d2def69c32b08225c735678af9af6c112aa73233
 LEGAL_DRINKING_AGE = 18
 
 class Person:
@@ -17,3 +22,7 @@ def enter_night_club(individual):
 
 person = Person(17.9)
 enter_night_club(person)
+<<<<<<< HEAD
+=======
+        
+>>>>>>> d2def69c32b08225c735678af9af6c112aa73233
