@@ -1,24 +1,19 @@
 # by Kami Bigdely
 # Inline method.
-
+"""Finds out if a person should be allowed to enter or not based on age"""
 LEGAL_DRINKING_AGE = 18
+
 class Person:
+    """Person class for holding a persons identity"""
     def __init__(self, my_age):
         self.age = my_age
-        
+
 def enter_night_club(individual):
-    if older_than_18_year_old(individual.age):
+    """Determines if a person should be allowed to enter or not based on age"""
+    if individual.age > LEGAL_DRINKING_AGE:
         print("Allowed to enter.")
     else:
         print("Enterance of minors is denited.")
 
-def older_than_18_year_old(age):
-    if age > LEGAL_DRINKING_AGE:
-        return True
-    else: 
-        return False
-    
-    
 person = Person(17.9)
 enter_night_club(person)
-        
