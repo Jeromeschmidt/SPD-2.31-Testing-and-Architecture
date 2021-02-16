@@ -2,11 +2,7 @@
 # Replace nested conditional with gaurd clauses
 
 def extract_position(line):
-    if not line:
-        pos = None
-    elif 'debug' in line or 'error' in line:
-        pos = None
-    elif 'x:' in line:
+    if 'x:' in line:
         start_index = line.find('x:') + 2
         pos = line[start_index:] # from start_index to the end.
     else:

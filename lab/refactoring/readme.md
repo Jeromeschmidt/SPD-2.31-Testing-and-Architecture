@@ -20,7 +20,7 @@ Study the file '**introduce_explaining_variable3.py**'. Use Replace Temp with qu
 
 ## Exercise 5: 'Extract Method' Technique
 
-Study the file '**extract_method3.py**'. Use 'extract method' technique to improve modularity of the code. 
+Study the file '**extract_method3.py**'. Use 'extract method' technique to improve modularity of the code.
 
 ## Exercise 6: Various Techniques
 
